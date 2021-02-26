@@ -7,6 +7,9 @@ html {
     text-align: center;
   }
 
+  body {
+    text-align: center;
+  }
   .main-header {
     position:relative;
     padding-bottom: 15%;
@@ -19,6 +22,7 @@ html {
       background-color: #3a3939;
       height:50px;
       padding-top:20px;
+      margin-top:0;
   }
  .link1{
      color:#ffffff
@@ -47,6 +51,7 @@ html {
 
   .right_header{    
     float:right;
+    margin-right:30px;
   }
 
    .right_header2{   
@@ -58,21 +63,40 @@ html {
     list-style:none;  
   }
 
+  .main-header {
+    position:relative;
+    bottom:20px;
+}
   .main-header img {
       position:relative;
       top:100px;
       width:200px;
   }
+  .title {
+    position:relative;
+    top:100px;
+  }
 
   .function-images {
     display: table;
   }
+  
+  .function-images {
+    display: table;
+  }
 
+  .function-images{
+   background-color:grey;
+   margin-top:50px;
+   width:100%;
+}
   .function-image {
       display: table-cell;
       position:relative;
-      left:330px;
-     padding:2rem;
+      left:30px;
+     padding:4rem;
+     margin:0px;
+    
   }
 
   footer {
@@ -87,4 +111,5 @@ html {
     vertical-align: middle;
     vertical-align: center;
     display: table-cell;
+    color:rgba(0, 0, 255, 0.842);
   }
