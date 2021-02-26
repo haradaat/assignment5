@@ -86,7 +86,7 @@ html {
   }
 
   .function-images{
-   background-color:grey;
+   background-color:lightgrey;
    margin-top:50px;
    width:100%;
 }
@@ -100,7 +100,7 @@ html {
   }
 
   footer {
-      background-color:#191970;
+      background-color:#404055;
       height:100px;
       display: table;
       width:100%;
@@ -111,5 +111,4 @@ html {
     vertical-align: middle;
     vertical-align: center;
     display: table-cell;
-    color:rgba(0, 0, 255, 0.842);
   }
